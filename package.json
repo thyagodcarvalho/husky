@@ -1,0 +1,16 @@
+{
+  "name": "husky",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/thyagodcarvalho/husky.git",
+  "author": "Thyago de Carvalho Nascimento <thyago.nascimento@expensemobi.com.br>",
+  "license": "MIT",
+  "scripts": {
+    "commit": "git-cz"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.0.3",
+    "@commitlint/config-conventional": "^17.0.3",
+    "husky": "^8.0.1"
+  }
+}
